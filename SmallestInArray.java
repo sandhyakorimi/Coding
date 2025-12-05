@@ -5,7 +5,7 @@ public class SmallestInArray {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter number of elements in an array: ");
         int num = sc.nextInt();
-        System.out.println("Enter "+num+"numbers to Array");
+        System.out.println("Enter "+num+" numbers to Array");
         int arr[]= new int[num];
         for(int i=0; i<num; i++){
             int val = sc.nextInt();
@@ -14,7 +14,7 @@ public class SmallestInArray {
         System.out.println("Smallest number in the array is : ");
         int less = arr[0];
         for(int j=1; j<arr.length; j++){
-            if(arr[j]<arr[j-1]){
+            if(arr[j]<less){
                 less=arr[j];
             }
         }
