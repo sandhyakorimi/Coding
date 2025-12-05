@@ -19,6 +19,6 @@ public class SmallestInArray {
             }
         } 
         System.out.print(less);
-        sc.close();
+        sc.close(); 
     }
 }
