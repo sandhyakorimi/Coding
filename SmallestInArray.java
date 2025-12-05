@@ -17,7 +17,7 @@ public class SmallestInArray {
             if(arr[j]<less){
                 less=arr[j];
             }
-        }
+        } 
         System.out.print(less);
         sc.close();
     }
