@@ -18,7 +18,7 @@ public class FrequencyOfNum {
                 count++; 
             }else{
             System.out.println("Frequency of "+arr[j]+" is :"+count);
-            count=1;
+            count=1; 
             }
         }
         sc.close();
