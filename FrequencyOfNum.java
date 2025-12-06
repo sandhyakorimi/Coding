@@ -11,7 +11,7 @@ public class FrequencyOfNum {
         for(int i=0; i<num; i++){
             arr[i]=sc.nextInt(); 
         }  
-        Arrays.sort(arr);
+        Arrays.sort(arr); 
         int count =1;
         for(int j=0;j<arr.length;j++){
             if(j<arr.length-1&&arr[j]==arr[j+1]){
