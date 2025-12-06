@@ -15,7 +15,7 @@ public class FrequencyOfNum {
         int count =1;
         for(int j=0;j<arr.length;j++){
             if(j<arr.length-1&&arr[j]==arr[j+1]){
-                count++;
+                count++; 
             }else{
             System.out.println("Frequency of "+arr[j]+" is :"+count);
             count=1;
