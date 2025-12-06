@@ -9,8 +9,8 @@ public class FrequencyOfNum {
         System.out.println("Enter "+num+" numbers to array : ");
         int arr[]=new int[num];
         for(int i=0; i<num; i++){
-            arr[i]=sc.nextInt();
-        }
+            arr[i]=sc.nextInt(); 
+        }  
         Arrays.sort(arr);
         int count =1;
         for(int j=0;j<arr.length;j++){
@@ -19,7 +19,7 @@ public class FrequencyOfNum {
             }else{
             System.out.println("Frequency of "+arr[j]+" is :"+count);
             count=1;
-            }un
+            }
         }
         sc.close();
     }
