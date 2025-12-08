@@ -19,6 +19,6 @@ public class Average {
         System.out.println("Average: "+avg);
 
         sc.close();
-    }
+    } 
 }   
  
