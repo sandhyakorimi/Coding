@@ -20,4 +20,4 @@ public class Average {
 
         sc.close();
     }
-}
+} 
