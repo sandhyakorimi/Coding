@@ -11,7 +11,7 @@ public interface LivingThings {
         System.out.println("HElloo");
     }
 
-    static void personal(){  
+    static void personal(){   
         // hello();       
         forThisInterfaceReuse();          // non-static method in static not fit
         System.out.println("Personal");
