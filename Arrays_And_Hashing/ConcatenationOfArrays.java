@@ -7,6 +7,6 @@ public class ConcatenationOfArrays {
         for(int i=0;i<n;i++){
             ans[i]=ans[i+n]=nums[i];
         }
-        return ans;
+        return ans; 
     }
 }
