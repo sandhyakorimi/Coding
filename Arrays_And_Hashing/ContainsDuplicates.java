@@ -6,7 +6,7 @@ public class ContainsDuplicates {
         for(int i=1;i<nums.length;i++){
             if(nums[i]==nums[i++]){
                 return true;
-            }
+            }   
         }
         return false;           
     }
