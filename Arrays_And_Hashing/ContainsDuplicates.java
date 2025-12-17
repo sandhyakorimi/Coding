@@ -8,6 +8,6 @@ public class ContainsDuplicates {
                 return true;
             }
         }
-        return false;
+        return false;           
     }
 }
