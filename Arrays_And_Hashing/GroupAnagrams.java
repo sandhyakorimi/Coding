@@ -16,3 +16,11 @@ public class GroupAnagrams {
     return new ArrayList<>(res.values());
 }
 }
+
+// For each word, I convert it to a character array and sort it.
+
+// The sorted string acts as a key because all anagrams produce the same sorted form.
+
+// I store all original words with the same key in a list in the map.
+
+// Finally, I return all the grouped values from the map.
