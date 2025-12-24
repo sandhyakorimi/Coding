@@ -1,4 +1,4 @@
-package Arrays_And_Hashing;
+// package Arrays_And_Hashing;
 import java.util.Arrays;
 public class Anagram {
     public boolean AnagramOrNot(String s, String t){
@@ -12,3 +12,13 @@ public class Anagram {
         return Arrays.equals(sSort, tSort);  
     }
 }
+
+
+// Brief interview explanation (LeetCode style):
+
+// First, I check if both strings have the same length. If not, they can’t be anagrams.
+// Then I convert both strings into character arrays, sort them, and compare the sorted arrays.
+// If they are equal, the strings are anagrams.
+
+// Time Complexity: O(n log n)
+// Space Complexity: O(n)
