@@ -6,6 +6,6 @@ public class RemoveElement {
                 nums[k++]=nums[i];
             } 
         }
-        return k;
+        return k; 
     }
 }
