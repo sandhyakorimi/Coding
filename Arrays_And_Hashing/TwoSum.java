@@ -1,5 +1,3 @@
-package Arrays_And_Hashing;
-
 import java.util.HashMap;
 
 public class TwoSum {
@@ -9,7 +7,7 @@ public class TwoSum {
             int num = nums[i];
             int diff = target-num;
             if(prevMap.containsKey(diff)){
-                return new int[]{prevMap.get(diff),i}
+                return new int[]{prevMap.get(diff),i};
             }
             prevMap.put(num,i);
         }
@@ -25,4 +23,4 @@ public class TwoSum {
 // Otherwise, I store the current number and its index in the map and continue.
 
 // Time Complexity: O(n)
-// Space Complexity: O(n)    
+// Space Complexity: O(n)    Mahao
