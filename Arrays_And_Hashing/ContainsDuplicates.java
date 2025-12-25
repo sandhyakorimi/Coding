@@ -14,7 +14,7 @@ public class ContainsDuplicates {
 
 // Explanation:
 
-// This method checks whether the array contains any duplicate elements.
+// This method checks whether an array contains any duplicate elements.
 
 // First, we sort the array using Arrays.sort(nums). After sorting, any duplicate values will be placed next to each other.
 
