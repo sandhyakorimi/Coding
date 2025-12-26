@@ -13,5 +13,6 @@ public class SortColors {
         }
     }
 }
+
 // I go through the array once and first assume every number is 2. If I see 1 or 0,
 //  I place them in the correct position using two pointers. This works in O(n) time and O(1) extra space.
