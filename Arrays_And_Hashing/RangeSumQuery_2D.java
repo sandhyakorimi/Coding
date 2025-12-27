@@ -1,6 +1,6 @@
 public class RangeSumQuery_2D {
     private int[][] sumMat;
-    public void NumMatrix(int[][] matrix){
+    public void RangeSumQuery_2D(int[][] matrix){
         int Rows = matrix.length, Cols = matrix[0].length;
         sumMat = new int[Rows+1][Cols+1];
         for(int r=0; r<Rows; r++){
