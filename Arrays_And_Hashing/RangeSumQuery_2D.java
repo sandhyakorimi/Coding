@@ -1,6 +1,6 @@
 public class RangeSumQuery_2D {
     private int[][] sumMat;
-    public void RangeSumQuery_2D(int[][] matrix){
+    public RangeSumQuery_2D(int[][] matrix){
         int Rows = matrix.length, Cols = matrix[0].length;
         sumMat = new int[Rows+1][Cols+1];
         for(int r=0; r<Rows; r++){
@@ -22,3 +22,12 @@ public class RangeSumQuery_2D {
     }
  }
 
+// This code helps to find the sum of any rectangular part of a matrix quickly.
+
+// First, I create a sum matrix where each cell stores the total sum from the top-left corner to that cell.
+// I add one extra row and column with zeros to make the calculation simple.
+
+// When sumRegion is called, I don’t calculate the sum again.
+// I just use four values from the sum matrix and apply a simple formula to get the answer in constant time.
+
+// Building the sum matrix takes some time once, but after that, every query is very fast.
