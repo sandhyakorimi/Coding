@@ -19,3 +19,10 @@ public class ProductOfArray_exceptIt {
         return res; 
     }
 }
+
+
+// To solve Product of Array Except Self, I use prefix and suffix arrays.
+// The prefix array stores the product of all elements before the current index, and the
+//  suffix array stores the product of all elements after the current index.
+// The final result for each index is obtained by multiplying its prefix and suffix values.
+// This approach runs in O(n) time and completely avoids using division.
