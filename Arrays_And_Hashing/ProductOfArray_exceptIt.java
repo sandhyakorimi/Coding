@@ -16,6 +16,6 @@ public class ProductOfArray_exceptIt {
         for(int i=0; i<n; i++){
             res[i] = pref[i]*suff[i];
         }
-        return res;
+        return res; 
     }
 }
