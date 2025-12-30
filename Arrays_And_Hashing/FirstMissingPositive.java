@@ -20,7 +20,7 @@ public class FirstMissingPositive {
             }
         }
         return n+1;
-    }
+    } 
 }
 // “In this problem, we find the first missing positive number using cyclic sort. We try to place each positive
 //  number x at its correct position x - 1. If a number is negative, greater than the array length, or already 
