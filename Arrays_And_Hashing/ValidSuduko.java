@@ -32,7 +32,7 @@ public class ValidSuduko {
             }
         }
         return true;        
-    }   
+    }    
 }  
 // “This code checks whether a Sudoku board is valid. We use three arrays of HashSets to track numbers in each 
 // row, each column, and each 3×3 box. While traversing the board, we skip empty cells represented by a dot (.). 
