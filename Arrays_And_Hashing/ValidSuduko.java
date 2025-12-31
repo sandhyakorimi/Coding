@@ -31,7 +31,7 @@ public class ValidSuduko {
                 boxes[boxIndex].add(val);
             }
         }
-        return true;    
+        return true;        
     }   
 }  
 // “This code checks whether a Sudoku board is valid. We use three arrays of HashSets to track numbers in each 
