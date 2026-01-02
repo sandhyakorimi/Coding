@@ -30,7 +30,7 @@ public class ValidSuduko {
                 if(boxes[boxIndex].contains(val)) return false;
                 boxes[boxIndex].add(val);
             }
-        }
+        } 
         return true;                 
     }           
 }                
