@@ -12,6 +12,6 @@ public class MajorityElement2 {
             }
             if(count>nums.length/3) arr.add(i);
         }
-        return new ArrayList<>(arr);
+        return new ArrayList<>(arr); 
     }
 }
