@@ -19,3 +19,7 @@ public class LongestConsecutiveSequence {
         return longest;
     }
 }
+// “First, I store all the numbers in a HashSet to remove duplicates and allow fast lookup. Then, I iterate 
+// through each number. If a number does not have its previous value, I treat it as the start of a sequence.
+//  Using a while loop, I check for the next consecutive numbers until the sequence breaks. Finally, I return
+//   the length of the longest sequence.”
