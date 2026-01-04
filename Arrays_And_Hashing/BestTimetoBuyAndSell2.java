@@ -8,4 +8,4 @@ public class BestTimetoBuyAndSell2{
         }
         return profit;
     }
-}
+} 
