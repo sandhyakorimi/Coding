@@ -9,11 +9,11 @@ public class LongestConsecutiveSequence {
         int longest = 0;
         for(int num: numset){
             if(!numset.contains(num-1)){
-                int large =1;
-                while(numset.contains(num+large)){
-                    large++;
+                int length =1;
+                while(numset.contains(num+length)){
+                    length++;
                 }
-                longest = Math.max(longest,large);
+                longest = Math.max(longest,length);
             }
         }
         return longest;
