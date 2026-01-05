@@ -12,9 +12,9 @@ public class MajorityElement2 {
             }
             if(count>nums.length/3) arr.add(i);
         }
-        return new ArrayList<>(arr);    
-    }   
- 
+        return new ArrayList<>(arr);     
+    }    
+  
 }
 // “I iterate through the array and count how many times each number appears. If a number’s count is greater 
 // than n/3, I add it to a HashSet to avoid duplicates. Finally, I convert the set into a list and return it.”
