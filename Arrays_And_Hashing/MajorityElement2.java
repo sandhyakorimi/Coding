@@ -13,7 +13,7 @@ public class MajorityElement2 {
             if(count>nums.length/3) arr.add(i);
         }
         return new ArrayList<>(arr); 
-    }
+    }   
 
 }
 // “I iterate through the array and count how many times each number appears. If a number’s count is greater 
