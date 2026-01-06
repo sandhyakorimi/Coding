@@ -9,6 +9,6 @@ public class ReverseString {
             s[r] = temp;
             i++;
             r--;
-        }
+        }   
     }
 }
