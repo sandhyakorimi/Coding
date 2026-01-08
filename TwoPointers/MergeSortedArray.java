@@ -13,3 +13,7 @@ public class MergeSortedArray {
         }
     }
 }
+// This code merges two sorted arrays by using three pointers from the end. We compare the elements from the
+//  back of both arrays and place the larger one in the correct position of nums1. This ensures that all elements
+//   are merged in sorted order without overwriting existing values. The algorithm works in O(m + n) time and uses
+//    O(1) extra space because the merging is done in-place.
