@@ -11,7 +11,7 @@ public class MergeSortedArray {
                 str1[l--] = str2[j--];
             }
         }
-    }
+    } 
 }
 // This code merges two sorted arrays by using three pointers from the end. We compare the elements from the
 //  back of both arrays and place the larger one in the correct position of nums1. This ensures that all elements
