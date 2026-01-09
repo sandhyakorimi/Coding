@@ -2,11 +2,11 @@ package TwoPointers;
 
 public class ValidPalindrome {
     public boolean palindromeOrNot(String s){
-        int l =0, r = s.length();
+        int l =0, r = s.length()-1;
         while(l<r){
             while(l<r && !alphaNumeric(s.charAt(l))){ l++; }
             while(r>l && !alphaNumeric(s.charAt(r))){ r--;}
-            if(s.charAt(l)!=s.charAt(r)){
+            if(Character.toLowerCase(s.charAt(l))!=Character.toLowerCase(s.charAt(r))){
                 return false;
             }
             l++; r--;
