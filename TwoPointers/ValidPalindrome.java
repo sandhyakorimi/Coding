@@ -18,4 +18,4 @@ public class ValidPalindrome {
                 c>='a' && c<='z' ||        
                 c>='0' && c<='9');    
         }
-}
+}   
