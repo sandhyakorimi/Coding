@@ -14,7 +14,7 @@ public class ValidPalindrome {
         return true;
     }
         public boolean alphaNumeric(char c){ 
-             return (c>='A' && c<='Z' || 
+             return (c>='A' && c<='Z' ||    
                 c>='a' && c<='z' ||        
                 c>='0' && c<='9');      
         }
