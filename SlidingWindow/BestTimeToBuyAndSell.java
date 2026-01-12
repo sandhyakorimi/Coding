@@ -9,5 +9,5 @@ public class BestTimeToBuyAndSell {
             min = Math.min(min, i);
         }   
         return max;
-    }
+    }   
 }
