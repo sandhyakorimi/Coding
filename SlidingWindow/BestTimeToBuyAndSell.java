@@ -6,7 +6,7 @@ public class BestTimeToBuyAndSell {
         int min = prices[0];
         for(int i: prices){
             max=Math.max(max, i-min);
-            min = Math.min(min, i);
+            min = Math.min(min, i);     
         }   
         return max;  
     }   
