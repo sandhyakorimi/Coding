@@ -8,6 +8,6 @@ public class BestTimeToBuyAndSell {
             max=Math.max(max, i-min);
             min = Math.min(min, i);
         }   
-        return max;
+        return max; 
     }   
 }
