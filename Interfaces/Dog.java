@@ -6,5 +6,5 @@ public class Dog extends Animal{
         dog.think(); 
         dog.Decide(); 
     } 
-}
+} 
   
