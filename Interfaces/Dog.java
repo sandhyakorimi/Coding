@@ -4,7 +4,7 @@ public class Dog extends Animal{
         Animal dog= new Dog();
         dog.eat();
         dog.think();
-        dog.Decide();
+        dog.Decide(); 
     }
 }
  
