@@ -26,7 +26,7 @@ public interface A{
 public interface B {
     public void method();
 }
-public class C extends A,B{
+public class C implements A,B{
     public void method(){
         System.out.println("method implimentation");
     }
