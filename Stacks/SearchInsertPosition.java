@@ -7,7 +7,7 @@ public class SearchInsertPosition {
                 return mid;
             }
             else if(nums[mid]>target){
-                res=mid;
+                res=mid; 
                 r=mid-1;
             }else{l=mid+1;} 
         }
