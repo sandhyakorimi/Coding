@@ -14,3 +14,7 @@ public class SearchInsertPosition {
         return res;
     }
 }
+
+// “This code uses binary search to find the target in a sorted array. If the target is not found, it returns the index 
+// where the target should be inserted. We update l and r based on comparisons, and res stores the correct insert position.
+//  Time complexity is O(log n).”
