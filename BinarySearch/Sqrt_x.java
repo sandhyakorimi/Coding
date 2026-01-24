@@ -17,4 +17,4 @@ public class Sqrt_x {
 } 
 // "I used binary search between 0 and x. I check the middle m: if m*m equals x I return it, if m*m is less I move right
 //  and save m as a possible answer, if more I move left. I cast to long to avoid overflow. At the end, I return the floor
-//   value stored in res."
+//   value stored in res." 
