@@ -33,7 +33,7 @@ public class BaseballGame {
 
 // If it's ‘D’, I push double the previous score.
 
-// If it's ‘C’, I remove the last score.  
+// If it's ‘C’, I remove the last score.   
   
 // After processing all operations, I sum up all the values in the stack and return the final score.
 // Using a stack makes it easy to access and manipulate the recent scores.”
