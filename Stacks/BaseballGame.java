@@ -31,7 +31,7 @@ public class BaseballGame {
 
 // If it's ‘+’, I calculate the sum of the last two scores and push it.
 
-// If it's ‘D’, I push double the previous score.
+// If it's ‘D’, I push double the previous score. 
  
 // If it's ‘C’, I remove the last score.   
   
