@@ -17,6 +17,6 @@ public class RotateArray {
 
 }
 // “We can rotate the array in O(n) time and O(1) space using the reverse method.
-// First normalize k using k %= n.    
+// First normalize k using k %= n.     
 // Then reverse the whole array, reverse the first k elements, and reverse the remaining n–k elements.
 // This rearranges the array into the rotated order without using extra space.”
