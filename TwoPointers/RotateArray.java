@@ -20,4 +20,4 @@ public class RotateArray {
 // First normalize k using k %= n.         
 // Then reverse the whole array, reverse the first k elements, and reverse the remaining n–k elements.
 // This rearranges the array into the rotated order without using extra space.”
-       
+        
