@@ -12,6 +12,6 @@ class PathFinding {
                 stack.push(s);
             }
         }
-        return "/"+String.join("/",stack);
+        return "/"+String.join("/",stack); 
     }
 }
