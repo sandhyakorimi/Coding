@@ -11,7 +11,7 @@ class PathFinding {
             else if(!s.equals("")&&!s.equals(".")){
                 stack.push(s);
             }
-        }
+        } 
         return "/"+String.join("/",stack);  
     }
  
