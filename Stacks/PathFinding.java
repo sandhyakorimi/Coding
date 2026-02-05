@@ -14,7 +14,7 @@ class PathFinding {
         }
         return "/"+String.join("/",stack); 
     }
-
-}
+ 
+} 
 // I split the path by /, use a stack to store directories, ignore . and empty parts, pop the stack for .., 
 // and finally join the stack with / to get the simplified path.
